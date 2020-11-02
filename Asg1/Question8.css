@@ -1,0 +1,16 @@
+table {
+    border-collapse: collapse;
+}
+table td {
+    border: 1px solid black;
+    
+}
+table tr:nth-child(odd) {
+    background-color: rgb(7, 133, 150);
+    
+}
+table tr:nth-child(even) {
+    height: 40px;
+    vertical-align:bottom;
+    
+}

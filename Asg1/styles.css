@@ -1,0 +1,59 @@
+/* Heading paragraph css */
+.screen {
+    background-color: yellow;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 5px;
+}
+h2 {
+    background-color: red;
+}
+div p {
+    background-color: green;
+}
+/* table 1 css */
+.border td  {
+    border: 3px solid rgb(184, 176, 176);
+    border-collapse: collapse;
+}
+
+/* List  css */
+    ol.a {
+      list-style-type: decimal;
+      
+    }
+    
+    ol.b {
+      list-style-type: upper-alpha;
+    }
+    
+    ol.c {
+      list-style-type: upper-roman;
+    }
+    
+    ol.d {
+      list-style-type: lower-roman;
+    }
+/* Coloured table 1 */
+   #t01 td {
+       border: 1px solid black;
+       border-collapse: collapse;
+   }
+   #t01 tr:nth-child(odd) {
+       background-color: rgb(7, 133, 150);
+       
+   }
+   #t01 tr:nth-child(even) {
+       height: 40px;
+       vertical-align:bottom;
+       
+}
+/* Coloured table 2 */
+  #t02 td {
+      border: 1px solid black;
+      border-collapse: collapse;
+  }
+  #t02 tr:nth-child(even) {
+      height: 40px;
+      vertical-align: bottom;
+  }

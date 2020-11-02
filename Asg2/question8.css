@@ -1,0 +1,27 @@
+div {
+    border: 1px solid black;
+    padding-left: 5px;
+    
+}
+p.ex1 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: thick;
+    background-color: powderblue;
+}
+p.ex2 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: medium; 
+    background-color: powderblue;
+     
+}
+p.ex3 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: thin; 
+    background-color: powderblue;
+}

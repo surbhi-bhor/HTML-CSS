@@ -1,0 +1,18 @@
+.q1 {
+    background-color: lightskyblue;
+    padding-top: 0px;
+    
+}
+#strong {
+    font-size: x-large;
+    background-color: rgb(15, 181, 236);
+    padding-bottom: 1px; 
+}
+#color{
+    background-color: rgb(134, 234, 241);
+    padding-bottom: 20px;
+}
+p{ 
+    padding-top: 0px;
+    padding-bottom: 10px;
+}

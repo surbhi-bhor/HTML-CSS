@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey form</title>
+</head>
+<body>
+    
+    <h1 id="title">Book Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us understand our readers</p>
+    
+    <div id="body">
+        <form id="survey-form">
+
+            <label for="name" id="name-label">
+                <p>1) Name:</p>
+            </label>
+
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="email" id="email-label">
+                <p>2) Email</p>
+            </label>
+
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="number" id="number-label">
+                <p>3) Age:</p>
+            </label>
+
+            <input type="number" id="number" placeholder="Enter your age" required>
+
+
+            <p>4) Who is your favourite author:</p>
+  <select id="dropdown">
+    
+    <option value="default">No-one</option>
+    <option value="Haruki Murakami">Haruki Murakami</option>
+    <option value="J.K. Rowling">J.K. Rowling</option>
+    <option value="Dan Brown">Dan Brown</option>
+    <option value="Elif Shafak">Elif Shafak</option>
+    <option value="Rhonda Byrne">Rhonda Byrne</option>
+    
+  </select>
+  
+  <p>5) Which Genre You Like The Most?</p>
+  
+  <input type="radio" name="Genre" value="1">Fiction</input>
+  <br>
+  <input type="radio" name="Genre" value="2">Non-fiction</input>
+  <br>
+ <input type="radio" name="Genre" value="3">Self Help</input>
+<br>
+ <input type="radio" name="Genre" value="4">Suspense/Thrillers</input>
+<br>
+ <input type="radio" name="Genre" value="5">Romantic</input>
+<br>
+ <input type="radio" name="Genre" value="6">Classics</input>
+<br>
+ <input type="radio" name="Genre" value="7">Action & adventure</input>
+
+<p>6) Which Of The Famous books have you read?</p>
+
+<input type="checkbox" name="name" value="1">Thousand splendid suns</input>
+<br>
+ <input type="checkbox" name="name" value="2">Anne frank </input>
+<br>
+ <input type="checkbox" name="name" value="3">Power of subconcious mind</input>
+<br>
+ <input type="checkbox" name="name" value="4">Harry Potter Series</input>
+<br>
+ <input type="checkbox" name="name" value="5">Da Vinci code</input>
+<br>
+<input type="checkbox" name="name" value="6">40 Rules of love</input>
+<br>
+<input type="checkbox" name="name" value="7">Gone Girl</input>
+<br>
+<input type="checkbox" name="name" value="8">Sapiens</input>
+<br>
+<input type="checkbox" name="name" value="9">The Secret</input>
+<br>
+
+<p>7) What motivates you to read? <br>
+    Check all choices that apply to you.</p>
+
+<input type="checkbox" name="type" value="1">College assignments</input>
+<br>
+<input type="checkbox" name="type" value="2">Recommendation from a friend</input>
+<br>  
+<input type="checkbox" name="type" value="3">Recommendation from a friend</input>
+<br>    
+<input type="checkbox" name="type" value="4">Need for information for myself personally</input>
+<br>    
+<input type="checkbox" name="type" value="5">Enjoyment</input>
+<br>    
+<input type="checkbox" name="type" value="6">Relaxation</input>
+<br>      
+
+<textarea id="comment" rows="4" cols="40">Add Your Comment Here</textarea>
+<br>
+<input id="submit" type="submit" value="Submit">
+
+
+
+        </form>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+/* ques 7 */
+p {
+    
+    border: 1px solid red; 
+    outline-style: dotted;
+    outline-color: green;
+    outline-width: medium;
+    
+}
